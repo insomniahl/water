@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>一方圣水后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="row-fluid clearfix">
+    <div class="col-xs-3">
+        <div class="input-group">
+            <span class="input-group-addon">水票套餐名字:</span>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <button class="btn btn-primary">查询</button>
+        <button class="btn btn-success add_ticket">添加水票套餐</button>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <table class="table table-striped table-bordered center">
+        <thead>
+        <tr>
+            <td>水票名称</td>
+            <td>套餐介绍</td>
+            <td>水票类型</td>
+            <td>销售价格</td>
+            <td>水票张数</td>
+            <td>创建时间</td>
+            <td>状态</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>哇哈哈套餐</td>
+            <td>套餐包含12张水票，仅售60.00</td>
+            <td>厨房用水</td>
+            <td>60.00</td>
+            <td>12</td>
+            <td>2016-01-01 12:34</td>
+            <td>启用</td>
+            <td>
+                <button class="btn btn-default btn-xs ticket_state">停用</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="change_state_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">提示信息</h4>
+            </div>
+            <div class="modal-body">
+                是否停用该水票套餐
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="add_ticket_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">水票套餐信息</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label class="control-label">水票套餐名称</label>
+                        <input class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">套餐介绍</label>
+                        <input class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">水票类型</label>
+                        <input class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">销售价格</label>
+                        <input class="form-control" type="tel">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">水票张数</label>
+                        <input class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">添加</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/ticketPackage.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+section.tel_info{
+    line-height: 55px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+section.ui-panel{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+section.ui-panel div{
+    border-bottom: 1px solid lightgrey;
+}
+
+section.ui-panel div:last-of-type{
+    border-bottom: none;
+}
+
+section i{
+    margin-left: 20px;
+}

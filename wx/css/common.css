@@ -1,0 +1,47 @@
+.pic_height {
+    height: 32px;
+}
+
+.head_left {
+    float: left;
+    margin-left: 10px;
+}
+
+.head_right {
+    float: right;
+    margin-right: 10px;
+    width: auto;
+}
+
+.ui-header{
+    line-height: 0px;
+}
+
+.cart {
+    color: black;
+}
+
+.i_color {
+    color: black;
+    opacity: 0.5;
+}
+
+.on {
+    color: forestgreen;
+}
+
+[class^="ui-icon-"] {
+    display: inline-block;
+}
+
+section{
+    background-color: #f1f2f4;
+}
+
+section.ui-container{
+    padding-bottom: 70px;     
+}
+
+footer{
+    border-top: 1px solid lightgray;
+}

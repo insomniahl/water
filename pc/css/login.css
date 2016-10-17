@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+form{
+    margin: 10% auto;
+    width: 500px;
+    /*vertical-align: middle;*/
+}
+form div.input-group{
+    width: 500px;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+
+
+form button{
+    width: 80px;
+}
+
+.pull-right{
+    padding: 10px 20px;
+}

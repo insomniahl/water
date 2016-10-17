@@ -1,0 +1,123 @@
+header{
+    text-align: center;
+    line-height: 44px;
+    border-bottom: 1px solid lightgrey;
+}
+
+section.bill_info{
+    line-height: 55px;
+    border-bottom: 1px solid lightgrey;
+}
+
+section:last-of-type{
+    margin-bottom: 70px;
+}
+
+section ul{
+    background-color: #f1f2f4 !important;
+}
+
+.bill_info p{
+    display: inline-block;
+    line-height: 22px;
+}
+
+.bill_info .name{
+    position: absolute;
+    top: 5px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.bill_info .addr{
+    position: absolute;
+    bottom: 5px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.panel {
+    border-top: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.panel .title {
+    line-height: 38px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.order_info li {
+    height: 120px;
+    overflow: hidden;
+    padding-top: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title .name {
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.order_left {
+    float: left;
+    width: 35%;
+}
+
+.order_left img {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.order_right {
+    padding-left: 5px;
+    float: left;
+    width: 65%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.order_right .name {
+    font-size: 14px;
+}
+
+.order_right .introduce {
+    font-size: 12px;
+    display: inline-block;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 2em;
+}
+
+.panel .price, .panel .num {
+    float: right;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 15px;
+    color: red;
+    font-size: 14px;
+}
+
+footer .settle {
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    width: 80px;
+    background-color: red;
+    color: white;
+}
+
+footer > span {
+    margin-left: 15px;
+}
+
+footer .settle_money {
+    font-size: 20px;
+    color: indianred;
+}
+
+footer .settle, footer span {
+    display: inline-block;
+    line-height: 56px;
+}

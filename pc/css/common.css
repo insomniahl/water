@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.nav>li>a{
+    padding-left: 2rem;
+}
+
+.nav>li span{
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.row-fluid{
+    margin-bottom: 2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.fade{
+    display: none;
+}
+
+.in{
+    display: block;
+}

@@ -1,0 +1,53 @@
+section{
+    background-color: #f1f2f4;
+}
+
+.panel {
+    margin-top: 10px;
+    overflow: hidden;
+    line-height: 70px;
+    width: 100%;
+    background-color: white;
+    height: 150px;
+}
+
+.left {
+    float: left;
+    width: 32%;
+    height: 120px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.right {
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.right h2 {
+    line-height: 20px;
+    font-size: 18px;
+    display: block;
+    padding-top: 12px;
+}
+
+.right > span {
+    line-height: 16px;
+    font-size: 12px;
+    display: block;
+    padding-top: 5px;
+    text-indent: 2em;
+    height: 80px;
+    overflow: hidden;
+}
+
+.right p {
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+    float: right;
+    width: 50%;
+    color: red;
+}

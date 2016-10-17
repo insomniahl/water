@@ -1,0 +1,66 @@
+header {
+    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+header .btn {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 11px;
+    width: 300px;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+li:last-of-type{
+    margin-bottom: 70px;
+}
+
+section.ui-panel {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.ui-panel .city {
+    font-size: 18px;
+    color: darkgray;
+    margin: 5px 20px;
+}
+
+.ui-panel .name {
+    font-size: 16px;
+    margin: 5px 20px;
+}
+
+.ui-panel .addr {
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 20px;
+}
+
+.ui-panel .edit {
+    border-top: 1px solid lightgray;
+    line-height: 40px;
+}
+
+.edit .check_default{
+    margin-left: 20px;
+}
+
+.edit .operation{
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+}
+
+.ui-icon, [class^="ui-icon-"] {
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+}
+

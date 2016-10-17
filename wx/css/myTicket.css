@@ -1,0 +1,100 @@
+header {
+    line-height: 45px;
+    border-bottom: 1px solid darkgrey;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+section.panel {
+    background-color: white;
+    margin-top: 10px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+}
+
+section.panel:last-of-type {
+    margin-bottom: 30px;
+}
+
+.panel .title {
+    line-height: 36px;
+}
+
+.panel span {
+    display: inline-block;
+}
+
+.title .name {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.title .state {
+    font-size: 14px;
+    margin-right: 20px;
+    float: right;
+    color: lightgray;
+}
+
+.panel .ticket_info {
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ticket_info .ticket_left {
+    float: left;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ticket_info .ticket_middle {
+    float: left;
+    width: 45%;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.ticket_middle > span {
+    margin-top: 5px;
+    text-indent: 2em;
+    height: 70px;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+}
+
+.ticket_info .ticket_right {
+    float: left;
+    width: 25%;
+    height: 86px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ticket_right p {
+    line-height: 43px;
+}
+
+.ticket_right span.detail_price, .ticket_right span.detail_num {
+    font-size: 18px;
+    color: orangered;
+}
+
+.summary {
+    line-height: 24px;
+    margin: 5px 0;
+}
+
+.summary p {
+    font-size: 14px;
+    margin-left: 20px;
+    color: darkgrey;
+}
+
+.summary .num {
+    color: darkred;
+    font-size: 18px;
+}

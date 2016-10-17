@@ -1,0 +1,70 @@
+header img{
+    width: 100%;
+    height: 200px;
+}
+
+.panel {
+    margin-top: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    height: 150px;
+    font-size: 0px;
+}
+
+.panel .introduce {
+    line-height: 16px;
+    font-size: 12px;
+    display: block;
+    padding-top: 5px;
+    text-indent: 2em;
+    height: 80px;
+    overflow: hidden;
+}
+
+.panel .ui-icon-comment {
+    width: 28px;
+    height: 28px;
+}
+
+.panel .tel {
+    line-height: 32px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.panel .ui-btn {
+    float: right;
+    min-width: 30px;
+}
+
+.panel .ui-btn:first-of-type {
+    margin-right: 10px;
+}
+
+footer p {
+    display: inline-block;
+    line-height: 56px;
+    margin-left: 15px;
+    font-size: 24px;
+    color: red;
+}
+
+footer span{
+    display: inline-block;
+    line-height: 56px;
+    float: right;
+}
+
+footer .buy {
+    width: 100px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+}
+
+footer .add_cart {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #000;
+}

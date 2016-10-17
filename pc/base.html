@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>一方圣水后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/orderList.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">一方圣水后台管理系统</a>
+        </div>
+
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">配送派单<span class="badge">42</span></a></li>
+                <li><a href="#">王小力</a></li>
+                <li><a href="#">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-xs-3">
+            <div class="well sidebar-nav">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><span>订单管理</span></li>
+                    <li role="presentation" class="active"><a href="orderList.html">订单列表</a></li>
+                    <li role="presentation"><a href="orderDetail.html">订单明细</a></li>
+
+                    <li role="presentation"><span>库存信息</span></li>
+                    <li role="presentation"><a href="waterStock.html">当期库存</a></li>
+                    <li role="presentation"><a href="replenishWater.html">待补货</a></li>
+                    <li role="presentation"><a href="warnSet.html">警界点设置</a></li>
+
+                    <li role="presentation"><span>产品管理</span></li>
+                    <li role="presentation"><a href="produceInfo.html">产品列表</a></li>
+
+                    <li role="presentation"><span>配送管理</span></li>
+                    <li role="presentation"><a href="distributionPoint.html">配送点</a></li>
+                    <li role="presentation"><a href="deliver.html">配送员</a></li>
+                    <li role="presentation"><a href="deliverManager.html">配送派单</a></li>
+
+                    <li role="presentation"><span>财务管理</span></li>
+                    <li role="presentation"><a href="financialManage.html">财务信息</a></li>
+
+                    <li role="presentation"><span>水票套餐</span></li>
+                    <li role="presentation"><a href="ticketPackage.html">套餐设置</a></li>
+
+                    <li role="presentation"><span>供应商管理</span></li>
+                    <li role="presentation"><a href="supplierManager.html">供应商列表</a></li>
+
+                    <li role="presentation"><span>客户管理</span></li>
+                    <li role="presentation"><a href="clientManager.html">客户列表</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="col-xs-9 well">
+            <!--内容-->
+        </div>
+    </div>
+
+    <hr>
+
+</div>
+
+<footer class="row-fluid">
+    <p>&copy; Company 2013</p>
+</footer>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/orderList.js"></script>
+
+</body>
+</html>

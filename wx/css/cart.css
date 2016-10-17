@@ -1,0 +1,112 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+body {
+    background-color: #f1f2f4;
+}
+
+.panel {
+    margin-top: 10px;
+    background-color: white;
+}
+
+.panel:last-of-type {
+    margin-bottom: 70px;
+}
+
+.panel .title {
+    line-height: 38px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title .name {
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.title .clear_ticket, .title .clear_water{
+    float: right;
+    font-size: 16px;
+    color: darkgrey;
+    margin-right: 15px;
+}
+
+.cart_info li {
+    height: 120px;
+    overflow: hidden;
+    padding-top: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.cart_left {
+    float: left;
+    width: 35%;
+}
+
+.cart_left img {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.cart_right {
+    padding-left: 5px;
+    float: left;
+    width: 65%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.cart_right .name {
+    font-size: 14px;
+}
+
+.cart_right .introduce {
+    font-size: 12px;
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 2em;
+}
+
+.panel .ui-btn {
+    margin-top: 5px;
+    font-size: 14px;
+    /*float: right;*/
+    min-width: 30px;
+}
+
+.panel .price {
+    float: right;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 15px;
+    color: red;
+    font-size: 14px;
+}
+
+footer .settle {
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    width: 120px;
+    background-color: red;
+    color: white;
+}
+
+footer > span {
+    margin-left: 15px;
+}
+
+footer .settle_money {
+    font-size: 20px;
+    color: indianred;
+}
+
+footer .settle, footer span {
+    display: inline-block;
+    line-height: 56px;
+}

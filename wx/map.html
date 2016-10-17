@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>输入提示后查询</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        iframe {
+            width: 100%;
+            min-height: 700px;
+            display: block
+        }
+    </style>
+</head>
+<body>
+
+<iframe src="https://m.amap.com/picker/?key=859d5e1462aa5b5f010ac4ca72cdf754&keywords=小区,公司" id="container"
+        name="container">
+</iframe>
+
+<script type="text/javascript">
+    (function () {
+        var iframe = document.getElementById('container').contentWindow;
+        setTimeout(function () {
+            iframe.postMessage('hello', 'https://m.amap.com/picker/');
+        }, 1000);
+        window.addEventListener("message", function (e) {
+            console.log(e.data);
+        }, false);
+    }())
+</script>
+
+</body>
+</html>

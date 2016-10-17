@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>一方圣水后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="row-fluid clearfix">
+    <div class="col-xs-3">
+        <div class="input-group">
+            <span class="input-group-addon">产品名称:</span>
+            <select name="state" id="state" class="form-control">
+                <option value="0">哇哈哈</option>
+                <option value="1">农夫山泉</option>
+                <option value="2">脉动</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="input-group">
+            <span class="input-group-addon">设置最低库存:</span>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <button class="btn btn-primary">设置</button>
+    </div>
+</div>
+
+<div class="modal fade" id="add_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">补货信息</h4>
+            </div>
+            <div class="modal-body">
+                <p>商品名称:<span>哇哈哈</span></p>
+                <p>目前库存:<span>12</span></p>
+                <form>
+                    <div class="form-group">
+                        <label class="control-label">补货数量:</label>
+                        <input type="text" class="form-control" id="stock_num">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">添加库存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/warnSet.js"></script>
+
+</body>
+</html>

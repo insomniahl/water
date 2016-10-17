@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>一方圣水</title>
+    <link rel="stylesheet" href="libs/frozenui/css/frozen.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/editAddr.css">
+</head>
+
+<body>
+
+<section class="ui-form ui-border-t">
+    <form action="#">
+        <div class="ui-form-item ui-border-b">
+            <label>
+                姓名：
+            </label>
+            <input type="text" placeholder="必填" class="name">
+            <a href="#" class="ui-icon-close">
+            </a>
+        </div>
+        <div class="ui-form-item ui-border-b">
+            <label>
+                电话号码：
+            </label>
+            <input type="tel" placeholder="必填" class="tel">
+            <a href="#" class="ui-icon-close">
+            </a>
+        </div>
+        <div class="ui-form-item ui-border-b">
+            <label>
+                选择城市：
+            </label>
+
+            <div class="ui-select">
+                <select>
+                    <option>北京</option>
+                    <option selected>成都</option>
+                    <option>上海</option>
+                </select>
+            </div>
+        </div>
+        <div class="ui-form-item ui-border-b">
+            <label>
+                详细地址：
+            </label>
+            <input type="text" placeholder="必填" class="address">
+            <a href="#" class="ui-icon-close">
+            </a>
+        </div>
+        <div class="ui-form-item ui-border-b">
+            <label>
+                备注：
+            </label>
+            <input type="text" placeholder="选填" class="mark">
+            <a href="#" class="ui-icon-close">
+            </a>
+        </div>
+        <div class="div_btn">
+            <button class="btn ui-btn-primary save_addr">
+                保存
+            </button>
+        </div>
+    </form>
+</section>
+
+<div class="ui-dialog diag_tips">
+    <div class="ui-dialog-cnt">
+        <div class="ui-dialog-bd">
+            <h4></h4>
+        </div>
+        <div class="ui-dialog-ft">
+            <button type="button" data-role="button">确定</button>
+        </div>
+    </div>
+</div>
+
+<script src="libs/frozenui/lib/zepto.min.js"></script>
+<script src="libs/frozenui/js/frozen.js"></script>
+<script src="js/editAddr.js"></script>
+</body>
+</html>

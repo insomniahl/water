@@ -1,0 +1,20 @@
+label{
+    text-align: right !important;
+}
+
+section .div_btn{
+    line-height: 50px;
+    text-align: center;
+}
+
+section .btn {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 11px;
+    width: 300px;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
